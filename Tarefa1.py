@@ -17,7 +17,7 @@ print(nomecompleto.upper());
 print();
 print(nomecompleto.split());
 print();
-print(nomecompleto.replace("Francisco","Fco"));
+print(nomecompleto.replace("Fco","Francisco"));
 print();
 print(soma);
 print();
