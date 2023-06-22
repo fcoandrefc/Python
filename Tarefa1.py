@@ -1,15 +1,15 @@
 nome = "Fco Andre";
 sobrenome = "Felix Cunha";
 idade = "51";
-frase = "Francisco Andre Felix Cunha";
+frase = "Uma vez Flamento Sempre Flamento";
 nomecompleto = nome +" " + sobrenome;
 n1 = 22;
 n2 = 45;
 soma = n1 + n2;
 
-print(f"Ola, meu nome é {nome} " + f"e eu tenho {idade} anos");
+print(f"Ola, meu nome é {nome} e eu tenho {idade} anos");
 print();
-print("Tamanho variavel frasse :" + str(len(frase)));
+print("Tamanho variavel frasse :", len(frase));
 print();
 print(nomecompleto);
 print();
