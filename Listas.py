@@ -35,4 +35,9 @@ frutasshort.sort();
 
 print(frutasshort);
 
+from random import shuffle
+
+shuffle(frutasshort);
+print(frutasshort);
+
 
