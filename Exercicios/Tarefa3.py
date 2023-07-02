@@ -16,5 +16,23 @@ if (n3 % 2 == 0):
   print("Numero Par")
 else:
   print("Numero Impar");
+
+senha = input("Digite senha: ");
+if senha == "123456":
+  print("Senha Correta")
+else:
+  print("Senha Errada");
+  
+  
+
+idade = int(input("Digite sua Idade: "));
+if 18 <= idade <=30:
+  print("Esta entre 18 e 30")
+else:
+  print("Nao esta em 18 e 30");
+
+
+  
+
   
   
