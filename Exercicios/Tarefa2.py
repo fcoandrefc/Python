@@ -22,7 +22,9 @@ aluno={"nome": "André",
         "cidade": "Fortaleza"};
 
 print(aluno);
+
 idade_aluno = aluno["idade"];
+
 print(idade_aluno);
 
 aluno["genero"]="masculio";
