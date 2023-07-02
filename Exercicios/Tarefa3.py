@@ -39,6 +39,13 @@ if n4 >= 0 or n5 >= 0 or n6 >= 0:
     print ("Tem numero positivo")
 else:
     print("Não tem numero positivo");
+    
+letra = input("Digite uma letra:");  
+Listavogais =["a","e","i","o","u"];
+if letra in Listavogais:
+   print("Letra e um vogal!")
+else:
+    print("Letra não e uma vogal") ;
+    
 
-  
   
