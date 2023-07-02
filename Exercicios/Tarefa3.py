@@ -47,5 +47,35 @@ if letra in Listavogais:
 else:
     print("Letra não e uma vogal") ;
     
+n7 = int(input("Digite numero inteiro: "));
+if n7 > 0:
+  print("Numero Positivo")
+elif n7<0:
+  print("Numero negativo")
+else:
+   print("Numero zero");
+
+n8 = int(input("Digite 1 numero inteiro: "));
+n9 = int(input("Digite 2 numero inteiro: "));
+n10 = int(input("Digite 3 numero inteiro: "));
+
+if n9 < n8 or n10 < n8:
+  print("Numero fora da order crescente")
+else:
+   print("Numero na ordem crescente");
+
+
+n11 = int(input("Digite numero inteiro: "));
+
+if (n11 % 3 == 0) and (n11 % 5 == 0) :
+  print("Numero mutiplo de 3 e 5")
+else:
+  print("Numero nao é mutiplo de 3 e 5");
+
+
+
+
+
+    
 
   
