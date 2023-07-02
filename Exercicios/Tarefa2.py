@@ -18,7 +18,7 @@ print(cor_selecionada);
 # Cores.append("laranja");
 
 aluno={"nome": "André",
-        "idade": 51,
+        "idade":  51,
         "cidade": "Fortaleza"};
 
 print(aluno);

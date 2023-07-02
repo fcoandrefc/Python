@@ -68,7 +68,7 @@ n10 = int(input("Digite 3 numero inteiro: "));
 if n9 < n8 or n10 < n8:
   print("Numero fora da order crescente")
 else:
-   print("Numero na ordem crescente");
+   print("Numero na ordem  crescente");
 
 #10
 n11 = int(input("Digite numero inteiro: "));
