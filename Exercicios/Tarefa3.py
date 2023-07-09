@@ -1,71 +1,87 @@
 # 1
-x = 1
-while x <=10:
-    print(x)
-    x += 1
+n1 = int(input("Digite Primento numero inteiro: "));
+n2 = int(input("Digite Segundo numero inteiro: "));
+
+print(n1 + n2);
+print(n1 - n2);
+print(n1 * n2);
+print(n1 / n2);
 
 #2
-for n in range(1,11):
-    print(n)
+temperatura = int(input("Digite a Temperatura graus Celsius: "));
+if temperatura > 100:
+  print("A agua está fervendo!");
 
 #3
-x = 1
-total = 0
-while x <= 100:
-    total += x
-    x += 1
-print(total)
+n3 = int(input("Digite numero inteiro: "));
+if (n3 % 2 == 0):
+  print("Numero Par")
+else:
+  print("Numero Impar");
 
 #4
-total = 0
-for x in range(0,100):
-    x += 1
-    total += x
-print(total)
+senha = input("Digite senha: ");
+if senha == "123456":
+  print("Senha Correta")
+else:
+  print("Senha Errada");
 
 #5
-x= 0
-while x <= 20:
-  x +=1
-  if x % 2 == 0:
-    print(x)
+idade = int(input("Digite sua Idade: "));
+if 18 <= idade <=30:
+  print("Esta entre 18 e 30")
+else:
+  print("Nao esta em 18 e 30");
 
-#6
-for x in range(1,21):
-    x += 1
-    if x % 2 == 0:
-      print(x)
+#6  
+n4 = int(input("Digite 1 numero inteiro: "));
+n5 = int(input("Digite 2 numero inteiro: "));
+n6 = int(input("Digite 3 numero inteiro: "));
 
-#7
-nome = str(input("Digite palavra:"))
-nomeinvert = ""
-x = len(nome) -1
-while x >= 0:
-  nomeinvert +=(nome[x])
-  x -= 1
-print(nomeinvert)
+if n4 >= 0 or n5 >= 0 or n6 >= 0:
+    print ("Tem numero positivo")
+else:
+    print("Não tem numero positivo");
 
-#8
-nome = str(input("Digite palavra:"))
-nomeinvert = ""
-for x in nome:
- nomeinvert = x + nomeinvert
-if nome == nomeinvert:
-  print("Palíndromo")
-else: 
- print("Não é palíndromo")
+#7    
+letra = input("Digite uma letra:");  
+Listavogais =["a","e","i","o","u"];
+if letra in Listavogais:
+   print("Letra e um vogal!")
+else:
+    print("Letra não e uma vogal") ;
+
+#8    
+n7 = int(input("Digite numero inteiro: "));
+if n7 > 0:
+  print("Numero Positivo")
+elif n7<0:
+  print("Numero negativo")
+else:
+   print("Numero zero");
 
 #9
-x = 0
-while True:
-  
-  if (x ** 2) > 1000:
-    print(f"Quadrado de {x} = {x**2}")
-    break
-  else:
-    x += 1
+n8 = int(input("Digite 1 numero inteiro: "));
+n9 = int(input("Digite 2 numero inteiro: "));
+n10 = int(input("Digite 3 numero inteiro: "));
 
-# 10
-lista = ["Flamengo", "Fortaleza", "Andre","Valdenia"]
-for x in list(reversed(lista)):
-  print(x)
+if n9 < n8 or n10 < n8:
+  print("Numero fora da order crescente")
+else:
+   print("Numero na ordem  crescente");
+
+#10
+n11 = int(input("Digite numero inteiro: "));
+
+if (n11 % 3 == 0) and (n11 % 5 == 0) :
+  print("Numero mutiplo de 3 e 5")
+else:
+  print("Numero nao é mutiplo de 3 e 5");
+
+
+
+
+
+    
+
+  
